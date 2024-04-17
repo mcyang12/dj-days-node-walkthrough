@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Days</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="nowPlaying">
+        <h1>Now Playing</h1>
+        <div id="currentAlbum"></div>
+    </div>
+    <div id="albumList">
+        <h2>All Albums</h2>
+        <ul></ul>
+    </div>
+    <div id="addAlbum">
+        <h2>Add New Album</h2>
+        <form id="albumForm">
+            <label for="title">Album Title:</label>
+            <input type="text" id="title" required>
+            
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" required>
+            
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre">
+            
+            <label for="coverArtUrl">Cover Art URL:</label>
+            <input type="text" id="coverArtUrl">
+            
+            <button type="submit">Add Album</button>
+        </form>        
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

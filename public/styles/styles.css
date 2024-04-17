@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#nowPlaying, #albumList, #addAlbum {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#currentAlbum {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.cover-img{
+    width: 100px; 
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button {
+    margin-top: 10px;
+}
