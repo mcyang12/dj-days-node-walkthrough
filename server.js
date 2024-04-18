@@ -40,5 +40,5 @@ app.post('/albums', (req, res) =>{
 });
 
 app.listen(PORT, () => {
-    console.log(`Server successfully running on port ${PORT}`)
+    console.log(`Server successfully running on http://localhost:${PORT}`)
 });
