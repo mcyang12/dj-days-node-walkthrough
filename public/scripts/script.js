@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
                     albumList.appendChild(li);
                 });
             })
-            .catch(error => console.error('Error fetching albums:, error'));
+            .catch(error => console.error('Error fetching albums:', error));
     }
 
     function updateNowPlaying(index){
